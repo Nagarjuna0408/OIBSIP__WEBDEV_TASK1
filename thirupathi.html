@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirupati Temple</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #e6d1a3;
+            color: #3a1d0e;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #5c2b17;
+            padding: 15px 40px;
+            border-radius: 8px;
+            margin: 15px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #f7d08a;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-left: 25px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #f7d08a;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar ul li a:hover {
+            color: #ffcc66;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 80vh;
+            background: url('https://www.poojn.in/wp-content/uploads/2025/04/Tirupati-Gopuram-2025-Venkateswara-Temple-Guide-Architecture-Significance.jpeg.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            filter: sepia(50%) saturate(80%) brightness(95%);
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(230, 209, 163, 0.65);
+        }
+
+        .hero-content {
+            position: relative;
+            max-width: 600px;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #c89b3c;
+            color: #3a1d0e;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #b3862b;
+        }
+
+        /* About Section */
+        .about {
+            padding: 40px 10%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 1rem;
+        }
+
+        .timings {
+            margin-top: 20px;
+            background: #f7d08a;
+            padding: 15px;
+            border-radius: 6px;
+            font-weight: bold;
+            color: #5c2b17;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Tirupati Temple</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to the<br>Holy Tirupati Temple</h1>
+            <p>Experience the divine beauty and spiritual<br>
+               energy of Lord Venkateswara’s abode.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Tirupati Temple</h2>
+        <p>
+            The Tirupati Balaji Temple, located in the hill town of Tirumala in Andhra Pradesh, 
+            is one of the most visited and richest religious shrines in the world. 
+            Dedicated to Lord Venkateswara, the temple is an important pilgrimage site 
+            attracting millions of devotees every year.
+        </p>
+
+        <div class="timings">
+             <strong>Darshan Timings:</strong><br>
+            Monday to Sunday: 2:30 AM – 11:00 PM<br>
+            Break Timings: 11:00 AM – 12:00 PM & 6:00 PM – 7:00 PM
+        </div>
+    </section>
+
+</body>
+</html>
